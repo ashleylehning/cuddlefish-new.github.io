@@ -241,12 +241,12 @@
   }
 }
 
-.acs-hsb__load-bar--up {
+.acs-hsb__loading-bar--up{
   width: 2px;
   height: 55px;
-  background-color: orange;
+  background-color: rgba(0, 0, 0, 0.1);
   position: absolute;
-  margin-left: 214px;
+  padding-left: 214px;
   bottom: 0px;
   -webkit-animation-name: grow;
   -webkit-animation-duration: 5s;
