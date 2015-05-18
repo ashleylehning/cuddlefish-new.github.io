@@ -1,0 +1,9 @@
+video { 
+  object-fit: cover;
+  position: relative;
+  right: 0;
+  top: 0;
+  min-width: 100%;
+  max-height: 500px;
+  width: auto;
+}
