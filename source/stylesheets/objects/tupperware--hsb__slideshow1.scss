@@ -1,0 +1,19 @@
+@import url("globals/variables") screen;
+@import url("normalize.css") screen;
+
+.progress-bar {
+	margin-top: 200px:;
+	margin-left: 200px;
+    height: 2px;
+    background: #FF9900;
+
+    -webkit-animation: fill_animation 5s;
+    animation: myfirst 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fill_animation {
+    from {width: 0%;}
+    to {width:100%;} 
+}
