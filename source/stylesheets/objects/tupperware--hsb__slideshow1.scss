@@ -1,19 +1,115 @@
 @import url("globals/variables") screen;
 @import url("normalize.css") screen;
 
-.progress-bar {
-	margin-top: 200px:;
-	margin-left: 200px;
+.progress-bar-1 {
+	position: absolute;
+	top: 288px;
+	left: 1123px;
     height: 2px;
     background: #FF9900;
+}
 
-    -webkit-animation: fill_animation 5s;
-    animation: myfirst 5s;
-    -webkit-animation-iteration-count: infinite;
+.progress-bar-wrap.start .progress-bar-1 {
+	-webkit-animation: fill_animation 3s;
+    animation: myfirst 3s;
+    -webkit-animation-iteration-count: 1;
     -webkit-animation-timing-function: linear;
 }
 
 @-webkit-keyframes fill_animation {
     from {width: 0%;}
-    to {width:100%;} 
+    to {width:213px;} 
+}
+/*-----------------------------------------*/
+
+.progress-bar-2 {
+	position: absolute;
+	top: 354px;
+	left: 1123px;
+    height: 2px;
+    background: #FF9900;
+}
+
+.progress-bar-wrap.start .progress-bar-2 {
+	-webkit-animation: fill_animation 5s;
+    animation: myfirst 5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+@-webkit-keyframes fill_animation {
+    from {width: 0%;}
+    to {width:213px;} 
+}
+/*-----------------------------------------*/
+
+.progress-bar-3 {
+	position: absolute;
+	top: 421px;
+	left: 1123px;
+    height: 2px;
+    background: #FF9900;
+}
+
+.progress-bar-wrap.start .progress-bar-3 {
+	-webkit-animation: fill_animation 5s;
+    animation: myfirst 5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+}
+
+@-webkit-keyframes fill_animation {
+    from {width: 0%;}
+    to {width:213px;} 
+}
+/*-----------------------------------------*/
+
+.progress-bar-4 {
+	position: absolute;
+	top: 482px;
+	left: 1123px;
+    height: 2px;
+    background: #FF9900;
+}
+
+.progress-bar-wrap.start .progress-bar-4 {
+	-webkit-animation: fill_animation 5s;
+    animation: myfirst 5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 13s;
+    animation-delay: 13s;
+}
+
+@-webkit-keyframes fill_animation {
+    from {width: 0%;}
+    to {width:213px;} 
+}
+
+/*-----------------------------------------*/
+
+.progress-bar-5 {
+	position: absolute;
+	top: 547px;
+	left: 1123px;
+    height: 2px;
+    background: #FF9900;
+}
+
+.progress-bar-wrap.start .progress-bar-5 {
+	-webkit-animation: fill_animation 5s;
+    animation: myfirst 5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 18s;
+    animation-delay: 18s;
+}
+
+@-webkit-keyframes fill_animation {
+    from {width: 0%;}
+    to {width:213px;} 
 }
