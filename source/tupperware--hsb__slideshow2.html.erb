@@ -1,0 +1,19 @@
+<div class="progress-bar-wrap">
+	<div class="progress-bar-1-bottom"></div>
+	<div class="progress-bar-1-bottom-2"></div>
+
+</div>
+
+<video id="bgvid">
+<source src="http://g-ec2.images-amazon.com/images/G/01/acs/ux/hsb/HSB_Background_Movie._V304879804_.mov" type="video/mp4">
+</video>
+
+<script>
+$(document).ready(function() {
+	$("#bgvid").click(function() {
+		console.log("clic");
+		this.play();
+		$(".progress-bar-wrap").addClass("start");
+	});
+});
+</script>

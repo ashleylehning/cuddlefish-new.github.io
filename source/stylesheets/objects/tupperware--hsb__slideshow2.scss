@@ -1,0 +1,45 @@
+@import url("globals/variables") screen;
+@import url("normalize.css") screen;
+
+.progress-bar-1-bottom {
+	position: absolute;
+    top: 568px;
+    left: 367px;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.progress-bar-wrap.start .progress-bar-1-bottom {
+	-webkit-animation: fill_animation 3s;
+    animation: myfirst 3s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fill_animation {
+    from {width: 0%;}
+    to {width:1200px;} 
+}
+/*--------------------------------------------*/
+
+.progress-bar-1-bottom-2 {
+	position: absolute;
+    top: 568px;
+    left: 367px;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.progress-bar-wrap.start .progress-bar-1-bottom-2 {
+	-webkit-animation: fill_animation 5s;
+    animation: myfirst 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+@-webkit-keyframes fill_animation {
+    from {width: 0%;}
+    to {width:1200px;} 
+}
